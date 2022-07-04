@@ -124,7 +124,7 @@ button:hover {
 }
 
 /*-----------------------------/SECOND SECTION-------------------------------*/
-/*-----------------------------/THIRD SECTION-------------------------------*/
+/*-------------------------------THIRD SECTION-------------------------------*/
 
 .section_three {
     background-color: #E5E7EB;
@@ -144,3 +144,36 @@ blockquote>p.credit {
     text-align: end;
     padding-right: 5%;
 }
+
+/*------------------------------/THIRD SECTION-------------------------------*/
+/*------------------------------FOURTH SECTION-------------------------------*/
+
+.section_four {
+    padding: 5% 10%;
+}
+
+.blue_frame {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5%;
+    color: #F9FAE8;
+}
+
+.left_blue>p,
+.left_blue>h3 {
+    margin: 3px;
+}
+
+.left_blue>p {
+    font-size: 14px;
+}
+
+.left_blue button {
+    border: 2px solid #F9FAF8;
+}
+
+/*-----------------------------/FOURTH SECTION-------------------------------*/
+/*------------------------------------FOOTER---------------------------------*/
