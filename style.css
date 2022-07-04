@@ -31,6 +31,11 @@ button {
     font-weight: 900;
 }
 
+a:hover,
+button:hover {
+    cursor: pointer;
+}
+
 /*-----------------------------HEADER-------------------------------------*/
 
 .header {
@@ -119,3 +124,23 @@ button {
 }
 
 /*-----------------------------/SECOND SECTION-------------------------------*/
+/*-----------------------------/THIRD SECTION-------------------------------*/
+
+.section_three {
+    background-color: #E5E7EB;
+    padding: 3% 15%;
+}
+
+blockquote>p.text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+blockquote>p.credit {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: end;
+    padding-right: 5%;
+}
